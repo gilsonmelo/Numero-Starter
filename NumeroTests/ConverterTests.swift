@@ -45,7 +45,7 @@ class ConverterTests: XCTestCase {
 
     func testConversionForOne() {
         let result = converter.convert(1)
-        XCTAssertEqual(result,"1")
+        XCTAssertEqual(result,"2")
     }
 }
 
